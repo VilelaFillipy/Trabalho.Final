@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ficha</title>
+      <link rel="stylesheet" href="/ficha.html">
+      
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+            crossorigin="anonymous"></script>
+      
+      <!-- Css do cabeçalho e rodapé -->
+      <link href="/principal.css" rel="stylesheet" type="text/css" />
+    </head>
+
+    <body>
+
+
+      <header>
+        <div class="logo1">
+          <img src="/img/logo1.png" alt="Imagem grande">
+        </div>
+      
+      
+                
+               
+        <nav>
+          <ul>
+            <button type="button" class="btn btn-outline-dark">
+            <a href="/index.html">Home</a></button>
+              <button type="button" class="btn btn-outline-dark">
+            <a href="/login.html">Login</a></button>
+              <button type="button" class="btn btn-outline-dark">
+            <a href="/cadastro.html">Cadastro</a></button>
+                <button type="button" class="btn btn-outline-dark">
+            <a href="/sobre.html">Sobre</a></button>
+          </ul>
+        </nav>
+      </header>
+      </div>
+</div>
+ 
+
+      
+	<div class="container">
+    
+		<h2>Ficha de Treino</h2>
+		<form>
+			<label for="name">Nome:</label>
+			<input type="text" id="name" name="name" required>
+
+			<label for="age">Idade:</label>
+			<input type="number" id="age" name="age" min="18" max="99" required>
+
+			<label for="gender">Gênero:</label>
+			<select id="gender" name="gender" required>
+				<option value="">Selecione</option>
+				<option value="Masculino">Masculino</option>
+				<option value="Feminino">Feminino</option>
+				<option value="Outro">Outro</option>
+			</select>
+
+			<label for="height">Altura (em cm):</label>
+			<input type="number" id="height" name="height" min="100" max="250" required>
+<br>
+			<label for="weight">Peso (em kg):</label>
+			<input type="number" id="weight" name="weight" min="30" max="200" required>
+			<label for="activity">Nível de atividade:</label>
+			<select id="activity" name="activity" required>
+				<option value="">Selecione</option>
+				<option value="Sedentário">Sedentário</option>
+				<option value="Moderado">Moderado</option>
+				<option value="Ativo">Ativo</option>
+				<option value="Muito ativo">Muito ativo</option>
+			</select>
+<br>
+<br>
+  <br>    
+			<h3>Exercícios</h3>
+
+			<div class="exercise">
+				<label for="exercise1">Exercício 1:</label>
+				<input type="text" id="exercise1" name="exercise1" required>
+				<label for="sets1">Séries:</label>
+				<input type="number" id="sets1" name="sets1" min="1" max="10" required>
+				<label for="reps1">Repetições:</label>
+				<input type="number" id="reps1" name="reps1" min="1" max="50" required>
+			</div>
+
+			<div class="exercise">
+				<label for="exercise2">Exercício 2:</label>
+				<input type="text" id="exercise2" name="exercise2" required>
+				<label for="sets2">Séries:</label>
+				<input type="number" id="sets2" name="sets2" min="1" max="10" required>
+				<label for="reps2">Repetições:</label>
+				<input type="number" id="reps2" name="reps2" min="1" max="50" required>
+        
+<br>
+<br>
+<br>
+      <h3>Contato</h3>
+        			<div class="exercise">
+				<label for="exercise2">Email:</label>
+				<input type="text" id="exercise2" name="exercise2" required>
+			</div>
+<br>
+         <a href="/pagpersonal.html"><button a href="/pagpersonal.html" style="font-size: 17px;">Enviar ficha</button></a>
+<br>
+<br>        
+    </form>
+  </div>
+    </div>
+
+
+        <footer>
+          
+           <div class="contact">
+            <p>Entre em contato conosco:</p>
+            <p>Telefone: (38) 4002-8922</p>
+            <p>Email: jrsc1@aluno.ifnmg.edu.br</p>
+
+       
+            <div class="logo">
+              <a href="https://www.instagram.com"><img src="/img/insta.png" alt="Instagram Logo"></a>
+              <a href="https://www.facebook.com"><img src="/img/face.png" alt="Facebook Logo"></a>
+              <a href="https://twitter.com/home"><img src="/img/twt.png" alt="Twitter Logo"></a>
+            </div>
+         
+      </footer>
+      
+</body>
+
+</html>

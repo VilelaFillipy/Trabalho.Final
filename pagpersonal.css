@@ -1,0 +1,164 @@
+#titulo{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  }
+  body{
+    font-family: sans-serif;
+  }
+  
+  header {
+    font-family: sans-serif;
+    background-color: #D9D9D9;
+    color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .logo1 img {
+    height: 50px;
+  }
+  
+  
+  .container12 {
+      width: 80%;
+      margin: auto;
+      border: 1px solid #ffffff;
+      padding: 20px;
+      box-sizing: border-box;
+      flex-grow: 1;
+  
+  }
+  
+  
+  footer {
+    background-color: #D9D9D9;
+    color: #000000;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .logo img {
+    width: 30px;
+    margin: 0 10px;
+  }
+  
+  .contact p {
+    margin: 5px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .containerC1 {
+    margin: 50px auto;
+    max-width: 600px;
+    background-color: #6e7677;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .containerC2 {
+    margin: 50px auto;
+    max-width: 600px;
+    background-color:  #6e7677;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .containerC3 {
+    margin: 50px auto;
+    max-width: 600px;
+    background-color:  #6e7677;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .containerC4 {
+    margin: 50px auto;
+    max-width: 600px;
+    background-color:  #6e7677;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .containerC5 {
+    margin: 50px auto;
+    max-width: 600px;
+    background-color:  #6e7677;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .containerC6 {
+    margin: 50px auto;
+    max-width: 600px;
+    background-color:  #6e7677;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .profile {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-picture {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 30px;
+  }
+  
+  .profile-picture img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .profile-info {
+    flex-grow: 1;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  
+  .meu-botao {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+  }
