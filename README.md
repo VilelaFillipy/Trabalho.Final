@@ -37,7 +37,7 @@
 <br>
 
 <h2> Deploy </h2>
-  Link do projeto: trabalho-final-web.netlify.app
+  Link do projeto: https://trabalho-final-web.netlify.app
   
 <h2> Como executar o projeto </h2>
 No terminal, clone o projeto:
