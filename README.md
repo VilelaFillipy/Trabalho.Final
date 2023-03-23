@@ -40,7 +40,9 @@
   Link do projeto: trabalho-final-web.netlify.app
   
 <h2> Como executar o projeto </h2>
-  Link do repositório
+No terminal, clone o projeto:
+git clone https://github.com/VilelaFillipy/Trabalho.Final.git
+Depois de clonado, selecione a opção "Open with Live Server"
   
 <h2> Como usar o projeto </h2>
 Clickar no link disponível acima, e visitar nossas páginas, conhecer nosso projeto e nossos futuros planos para este trabalho.
