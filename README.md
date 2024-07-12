@@ -1,3 +1,6 @@
+Esse foi o primeiro trabalho completo em html,css e js que eu fiz no meu curso! 
+
+
 **<h1 h1 align="center"> Xtraining </h1>**
 
 ![Xtraining-Logotipo-icon-X-black-sem-fundo](https://user-images.githubusercontent.com/101230109/227108537-4c8aa827-380f-4a79-b836-88cc48ff6190.png)
